@@ -1,3 +1,3 @@
 <?php
 
-echo 'Ok';
+echo 'Not ok';

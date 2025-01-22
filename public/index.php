@@ -1,9 +1,9 @@
 <?php
 
 print '</br>';
-print $_ENV['APP_NAME'] ?: 'No var';
+print getenv('APP_NAME') ?: 'No var';
 print '</br>';
-print $_ENV['APP_ENV'] ?: 'No var';
+print getenv('APP_ENV') ?: 'No var';
 print '</br>';
-print $_ENV['APP_SECRET'] ?: 'No var';
+print getenv('APP_SECRET') ?: 'No var';
 print '</br>';

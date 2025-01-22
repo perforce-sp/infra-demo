@@ -1,7 +1,7 @@
 <?php
 
-print  '<pre>';
-
-var_dump($_ENV);
-
-print  '</pre>';
+print '</br>';
+print $_ENV['APP_NAME'] ?: 'No var';
+print '</br>';
+print $_ENV['APP_ENV'] ?: 'No var';
+print '</br>';

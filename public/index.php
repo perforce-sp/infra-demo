@@ -1,3 +1,7 @@
 <?php
 
-echo 'OK now';
+print  '<pre>';
+
+var_dump($_ENV);
+
+print  '</pre>';
